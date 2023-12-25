@@ -1,0 +1,3 @@
+[submodule "yolov8_ros"]
+	path = yolov8_ros
+	url = git@github.com:mgonzs13/yolov8_ros.git
