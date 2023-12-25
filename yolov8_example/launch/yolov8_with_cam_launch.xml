@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="v4l2_camera" exec="v4l2_camera_node" name="camera_node" />
+    <include file="$(find-pkg-share yolov8_bringup)/launch/yolov8.launch.py">
+        <arg name="input_image_topic" value="/image_raw" />
+        <arg name="device" value="cpu" />
+    </include>
+</launch>
