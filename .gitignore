@@ -36,3 +36,6 @@ cmake-*
 
 # ide
 .idea
+
+# weight
+*.pt
